@@ -3,11 +3,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from './ui/sheet';
+import { usePathname } from 'next/navigation';
 
 const MobileNav = () => {
+  const pathname = usePathname();
   return (
-    <main className="w-[95vw] flex justify-between">
-      <section className="w-1/2 flex justify-end">
+    <main>
+      <section>
         <Sheet>
           <SheetTrigger asChild>
             <Image
@@ -15,10 +17,10 @@ const MobileNav = () => {
               alt="menu-icon"
               width={36}
               height={36}
-              className="cursor-pointer sm:hidden"
+              className="cursor-pointer"
             />
           </SheetTrigger>
-          <SheetContent side={"right"} className="bg-green-1 border-none">
+          <SheetContent side={"left"} className="bg-black-2 border-none">
             <div className="h-full flex flex-col justify-between items-center overflow-y-auto">
               <SheetClose asChild>
                 <section className="flex h-full flex-col gap-8 pt-16 text-slate">
@@ -30,10 +32,7 @@ const MobileNav = () => {
                         <Link
                           href={link.route}
                           key={link.label}
-                          className={cn(
-                            "flex gap-8 items-center w-full max-w-60 text-3xl font-semibold hover:text-white",
-                            { "text-white": isActive }
-                          )}
+                          className={`flex gap-8 items-center w-full max-w-60 text-3xl font-semibold hover:text-white ${isActive ? 'text-gold-1': "text-white78-"}`}
                         >
                           {link.label}
                         </Link>

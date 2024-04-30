@@ -24,9 +24,9 @@ const Reviews = () => {
   return (
     <main className="w-full h-screen bg-black-2">
         <div className="w-full flex flex-col justify-center">
-            <h1 className="text-4xl font-semibold mt-40 flex justify-center" style={{ fontFamily: 'Amarante'}}>REVIEWS</h1>
+            <h1 className="text-4xl font-semibold mt-20 xl:mt-40 flex justify-center" style={{ fontFamily: 'Amarante'}}>REVIEWS</h1>
 
-            <div className="mt-20 flex justify-around">
+            <div className="mt-10 xl:mt-20 flex justify-around">
                 {reviewData.map((data) => (
                     <ReviewCard name={data.name} key={data.name} description={data.description} />
                 ))}

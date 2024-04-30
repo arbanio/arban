@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import React from 'react'
+import MobileNav from './MobileNav';
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -13,6 +14,7 @@ const Navbar = () => {
   return (
    <header className='w-full h-20 p-4 bg-black-2'>
     <div className='flex justify-between items-center'>
+        <div className='flex w-10 xl:hidden'><MobileNav /></div>
         <div className='w-full flex justify-center xl:w-40 ml-6'><Image src={"/assets/logo.svg"} className='cursor-pointer' onClick={() => router.push("/home")} width={150} height={100}/></div>
         <div className='hidden w-[40rem] xl:flex justify-between mr-8'>
             {NavbarLinks.map((link) => {
