@@ -4,7 +4,7 @@ import React from 'react';
 
 const Productpage = () => {
   return (
-    <main className='w-full bg-black-2 h-full'>
+    <main className='w-full bg-transparent h-full relative z-40' id='product' >
       <div className='w-full flex flex-col justify-center'>
         <h1 className='text-3xl xl:text-4xl font-semibold mt-0 xl:mt-10 flex justify-center' style={{ fontFamily: 'Amarante'}}>OUR PRODUCTS</h1>
         

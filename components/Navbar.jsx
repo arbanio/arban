@@ -12,7 +12,7 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-   <header className='w-full h-20 p-4 bg-black-2'>
+   <header className='w-full h-20 p-4 bg-black-2 sticky top-0 z-50'>
     <div className='flex justify-between items-center'>
         <div className='flex w-10 xl:hidden'><MobileNav /></div>
         <div className='w-full flex justify-center xl:w-40 ml-6'><Image src={"/assets/logo.svg"} className='cursor-pointer' onClick={() => router.push("/home")} width={150} height={100}/></div>

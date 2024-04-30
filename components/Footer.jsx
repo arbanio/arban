@@ -10,7 +10,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <footer className=" bg-black-2">
+    <footer className="bg-transparent relative z-40">
       <div className="h-full flex w-[90%] m-auto border-t-2 border-b-2 border-gray-1 ">
         <div className="w-3/5 mt-20 flex justify-start gap-10 xl:gap-40 mb-10">
           <div className="flex flex-col gap-6 ml-10 xl:ml-20">

@@ -22,7 +22,7 @@ const Reviews = () => {
   ];
 
   return (
-    <main className="w-full h-screen bg-black-2">
+    <main className="w-full h-screen bg-transparent relative z-40">
         <div className="w-full flex flex-col justify-center">
             <h1 className="text-4xl font-semibold mt-20 xl:mt-40 flex justify-center" style={{ fontFamily: 'Amarante'}}>REVIEWS</h1>
 

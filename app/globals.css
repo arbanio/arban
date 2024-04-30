@@ -22,12 +22,7 @@
   
   body {
     color: rgb(var(--foreground-rgb));
-    background: linear-gradient(
-        to bottom,
-        transparent,
-        rgb(var(--background-end-rgb))
-      )
-      rgb(var(--background-start-rgb));
+    background-color: #14161C;
   }
   
   @layer utilities {
@@ -51,4 +46,22 @@
 .inputfield{
   background: transparent !important;
   outline: none;
+}
+
+.aboutBanner{
+  background-image: url("/assets/aboutBanner.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carouseldiv{
+  background-image: url("/assets/ellipse.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.homecarddiv{
+  background-image: url("/assets/homecard.svg");
+  background-size: cover;
+  background-position: center;
 }

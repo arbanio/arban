@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NewsLetter = () => {
   return (
-    <main className="w-full bg-black-2 h-[1000px] xl:h-[700px]">
+    <main className="w-full bg-black-2 h-[1000px] xl:h-[700px] bg-transparent relative z-40">
         <div className="text-center"><h1 className="text-4xl font-semibold pt-20" style={{ fontFamily: 'Amarante'}}>INFORMATION</h1></div>
         <div className="w-[90%] xl:h-[400px] m-auto mt-20 border-2 border-gold-1 rounded-5 flex flex-col xl:flex-row">
             

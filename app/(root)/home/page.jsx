@@ -9,7 +9,8 @@ import Footer from "@/components/Footer";
 const Homepage = () => {
   return (
     <main>
-      <div className="w-full flex justify-between h-screen maindiv">
+      <div className="maindiv w-full h-[100vh] fixed -z-1 maindiv"></div>
+      <div className="w-full flex justify-between h-screen relative z-40 bg-transparent">
         <div className="w-2/5"><Image src="/assets/perfume.svg" className="h-full" width={650} height={500} /></div>
         <div className="w-3/5 flex flex-col justify-center items-center">
           <div className="flex flex-col justify-center items-center">
