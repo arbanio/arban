@@ -23,6 +23,7 @@
   body {
     color: rgb(var(--foreground-rgb));
     background-color: #14161C;
+    color: white;
   }
   
   @layer utilities {
