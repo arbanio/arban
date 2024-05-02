@@ -25,26 +25,26 @@ const Aboutpage = () => {
       </div>
 
       <div className="mt-10 xl:mt-20 flex">
-        <div className="w-3/5 xl:w-1/2 h-full flex flex-col gap-7 items-end">
-          <p className="w-[32rem] text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
+        <div className="w-3/5 xl:w-1/2 h-full flex flex-col gap-7 md:items-end ml-5 md:ml-0">
+          <p className="w-[14rem] md:w-[32rem] text-xs md:text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
             Welcome to ARBAN, where fragrance meets elegance and sophistication.
             At ARBAN, we believe that scent is more than just a fragrance its
             an expression of individuality, a reflection of style, and a journey
             of discovery.
           </p>
-          <p className="w-[32rem] text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
+          <p className="w-[14rem] md:w-[32rem] text-xs md:text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
             Our name, ARBAN, embodies our commitment to creating perfumes that
             are as unique and enchanting as the cities they are named after.
             Drawing inspiration from the vibrancy and diversity of urban life,
             each of our fragrances is a captivating blend of creativity,
             passion, and ingenuity.
           </p>
-          <p className="w-[32rem] text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
+          <p className="w-[14rem] md:w-[32rem] text-xs md:text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
             With a meticulous attention to detail and a dedication to using only
             the finest ingredients, we craft scents that evoke emotions, awaken
             memories, and transport you to a world of luxury and indulgence.
           </p>
-          <p className="w-[32rem] text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
+          <p className="w-[14rem] md:w-[32rem] text-xs md:text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
             From the moment you experience an ARBAN fragrance, you will embark on
             a sensory adventure unlike any other. Whether you are drawn to the
             timeless allure of floral bouquets, the exotic richness of oriental
@@ -52,7 +52,7 @@ const Aboutpage = () => {
             ARBAN scent waiting to captivate your senses and elevate your
             experience.
           </p>
-          <p className="w-[32rem] text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
+          <p className="w-[14rem] md:w-[32rem] text-xs md:text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
             Join us as we redefine the art of fragrance and invite you to
             discover the essence of luxury with ARBAN.
           </p>

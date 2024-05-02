@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <footer className="bg-transparent relative z-40">
       <div className="h-full flex w-[90%] m-auto border-t-2 border-b-2 border-gray-1 ">
-        <div className="w-3/5 mt-20 flex justify-start gap-10 xl:gap-40 mb-10">
-          <div className="flex flex-col gap-6 ml-10 xl:ml-20">
+        <div className="w-3/5 mt-10 md:mt-20 flex justify-start gap-10 xl:gap-40 mb-10">
+          <div className="flex flex-col gap-2 md:gap-6 ml-3 md:ml-10 xl:ml-20">
             <h2
               className="uppercase font-semibold text-base xl:text-xl"
               style={{ fontFamily: "Amarante" }}
@@ -22,7 +22,7 @@ const Footer = () => {
             </h2>
             {FooterLinksOne.map((data) => (
               <Link
-                className="text-sm xl:text-xl"
+                className="text-xs md:text-sm xl:text-xl"
                 style={{ fontFamily: "Open Sans" }}
                 key={data.label}
                 href={"#"}
@@ -31,16 +31,16 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-2 md:gap-6">
             <h2
-              className="uppercase font-semibold text-base xl:text-xl"
+              className="uppercase font-semibold text-sm md:text-base xl:text-xl"
               style={{ fontFamily: "Amarante" }}
             >
               Support
             </h2>
             {FooterLinksTwo.map((data) => (
               <Link
-                className="text-sm xl:text-xl"
+                className="text-xs md:text-sm xl:text-xl"
                 style={{ fontFamily: "Open Sans" }}
                 key={data.label}
                 href={"#"}
@@ -50,19 +50,19 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="w-2/5 flex flex-col justify-center mt-10 mb-10">
+        <div className="w-2/5 flex flex-col justify-end md:justify-center mt-5 md:mt-10 mb-10">
           <Image src={"/assets/logo.svg"} className="w-[200px] h-[100px] xl:w-[300px] xl:h-[100px]" width={0} height={0} alt="logo" />
-          <div className="flex flex-col gap-6">
-            <div className="flex gap-6 items-center">
+          <div className="flex flex-col gap-2 md:gap-6">
+            <div className="flex gap-2 md:gap-6  items-center">
               <FaLocationDot />
-              <p className="w-[15rem] text-sm xl:text-base xl:w-[30rem]" style={{ fontFamily: "Open Sans" }}>
+              <p className="w-[15rem] text-xs md:text-sm xl:text-base xl:w-[30rem]" style={{ fontFamily: "Open Sans" }}>
                 eMoment India Pvt Ltd DCB-324, 3rd Floor, DLF Cybercity-
                 Mindfire Solutions, Chandaka Industrial Estate, Patia,
                 Bhubaneswar, Odisha 751024
               </p>
             </div>
             <div
-              className="flex gap-6 items-center text-sm xl:text-base"
+              className="flex gap-2 md:gap-6 items-centertext-xs md:text-sm xl:text-base"
               style={{ fontFamily: "Open Sans" }}
             >
               <FaPhone />
