@@ -12,7 +12,7 @@ const StoryPage = () => {
             </div>
             <div className="w-1/2 flex flex-col items-center relative">
                 <div className="w-[150px] md:w-[250px] xl:w-300 h-[150px] md:h-[300px] xl:h-400 bg-white rounded-5 mt-10 md:mt-5"></div>
-                <div className="w-[150px] md:w-[250px] xl:w-300 h-[150px] md:h-[300px] xl:h-400 bg-gold-1 rounded-5 absolute top-[7rem] md:top-[57rem] right-[4rem] xl:right-[7rem] xl:top-[15rem]"></div>
+                <div className="w-[150px] md:w-[250px] xl:w-300 h-[150px] md:h-[300px] xl:h-400 bg-gold-1 rounded-5 absolute top-[7rem] md:top-[12rem] right-[4rem] xl:right-[7rem] xl:top-[15rem]"></div>
             </div>
         </div>
     </main>

@@ -25,7 +25,7 @@ const Aboutpage = () => {
       </div>
 
       <div className="mt-10 xl:mt-20 flex">
-        <div className="w-3/5 xl:w-1/2 h-full flex flex-col gap-7 md:items-end ml-5 md:ml-0">
+        <div className="w-3/5 xl:w-1/2 h-full flex flex-col gap-7 md:items-end ml-5 md:ml-0s">
           <p className="w-[14rem] md:w-[32rem] text-xs md:text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
             Welcome to ARBAN, where fragrance meets elegance and sophistication.
             At ARBAN, we believe that scent is more than just a fragrance its
