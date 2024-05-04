@@ -1,5 +1,4 @@
 import StoryPage from "@/pages/StoryPage";
-import Image from "next/image";
 import Productpage from "../products/page";
 import Reviews from "@/pages/Reviews";
 import NewsLetter from "@/components/NewsLetter";
@@ -11,7 +10,7 @@ const Homepage = () => {
     <main>
       <div className="maindiv w-full h-[100vh] fixed -z-1 maindiv"></div>
       <div className="w-full flex justify-between h-[550px] md:h-screen relative z-40 bg-transparent">
-        <div className="md:w-2/5"><img src="/assets/perfume.svg" className="w-[500px] h-[500px] "/></div>
+        <div className="md:w-2/5"><img src="/assets/perfume.svg" className="w-[500px] h-[500px] md:w-[800px] md:h-[800px] "/></div>
         <div className="w-3/5 flex flex-col justify-center items-center">
           <div className="flex flex-col justify-center items-center mr-3 md:mr-0">
             <p style={{ fontFamily: 'Amarante'}} className="text-gold-1 text-xs md:text-base xl:text-xl">SINCE 2024</p>

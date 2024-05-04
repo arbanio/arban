@@ -17,14 +17,6 @@ const Carousel = ({ children: slides, autoSlide  = false, autoSlideInterval = 30
   return (
     <div className='overflow-hidden relative' key={slides}>
         <div className='flex transition-transform ease-out duration-500' style={{ transform: `translate(-${curr * 100}%)`}}>{slides}</div>
-        <div className='absolute inset-0 flex items-center justify-between p-4'>
-            <button className='text-white' onClick={prev}>
-                <FaRegArrowAltCircleLeft className='bg-gold-1 rounded-3xl'  size={40} />
-            </button>
-            <button className='text-white' onClick={next}>
-                <FaRegArrowAltCircleRight className='bg-gold-1 rounded-3xl'  size={40} />
-            </button>
-        </div>
     </div>
   )
 }

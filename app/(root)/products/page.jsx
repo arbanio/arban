@@ -20,7 +20,7 @@ const Productpage = () => {
           <div className='w-1/2 flex flex-col justify-center gap-5 xl:gap-10 xs:ml-10'>
               <h1 className="text-xl md:text-3xl xl:text-5xl font-semibold" style={{ fontFamily: 'Amarante'}}>LIMITED EDITION</h1>
               <p className="text-xs md:text-base xl:text-xl mt-2 xl:mt-5 w-44 md:w-38" style={{ fontFamily: 'Amarante'}}>If you are going to use a you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the on the Internet tend to repeat predefined chunks as necessary, first true generator on the internet</p>
-              <button className="w-20 md:w-28 xl:w-40 border-2 border-gold-1 text-gold-1 text-xs md:text-base xl:text-xl rounded-5 p-1 xs:p-2 xl:p-3 mt-5 xl:mt-10" style={{ fontFamily: 'Amarante'}}>Buy Now</button>
+              <button className="w-20 md:w-28 xl:w-40 border-2 border-gold-1 text-gold-1 text-xs md:text-base xl:text-xl rounded-5 p-1 xs:p-2 xl:p-3 mt-5 xl:mt-10" style={{ fontFamily: 'Amarante'}}>Book Now</button>
           </div>
         </div>
       </div>

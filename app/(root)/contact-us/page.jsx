@@ -5,7 +5,7 @@ import React from 'react'
 const Contactpage = () => {
   return (
     <>
-      <main className='w-full h-[800px] bg-black-2 flex justify-center items-center'>
+      <main className='w-full h-[800px] bg-black-2 flex justify-center items-center mt-40 md:mt-0'>
         <div className='w-[90vw] md:w-[70vw] h-[920px] md:h-[600px] rounded-50 flex flex-col md:flex-row mb-40 md:mb-0 contactdiv'>
           <div className='w-full md:w-1/2 flex flex-col items-center'>
             <h1 className='w-40 text-center mt-10 text-sm md:text-xl border-4 border-white p-2 tracking-widest' style={{ fontFamily: "Montserrat"}}>CONTACT</h1>
