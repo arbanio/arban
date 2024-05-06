@@ -9,9 +9,9 @@ const Productpage = () => {
         <h1 className='text-sm xs:text-xl md:text-3xl xl:text-4xl font-semibold mt-0 xl:mt-10 flex justify-center' style={{ fontFamily: 'Amarante'}}>OUR PRODUCTS</h1>
         
         <div className='mt-10 xl:mt-20 flex w-full justify-around'>
-           <ProductCard />
-           <ProductCard />
-           <ProductCard />
+           <ProductCard image={"/assets/product1.jpg"} />
+           <ProductCard image={"/assets/product2.jpg"} />
+           <ProductCard image={"/assets/product3.jpg"} />
         </div>
 
         {/* ======== product details page ============ */}
