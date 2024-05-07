@@ -56,9 +56,7 @@ const Footer = () => {
             <div className="flex gap-2 md:gap-6 md:items-center">
               <FaLocationDot />
               <p className="w-[15rem] text-xs md:text-sm xl:text-base xl:w-[30rem]" style={{ fontFamily: "Open Sans" }}>
-                eMoment India Pvt Ltd DCB-324, 3rd Floor, DLF Cybercity-
-                Mindfire Solutions, Chandaka Industrial Estate, Patia,
-                Bhubaneswar, Odisha 751024
+                DCB-324, 3rd Floor, DLF Cyber City, Chandaka Industrial Estate, Patia, Bhubaneswar, Odisha 751024
               </p>
             </div>
             <div
