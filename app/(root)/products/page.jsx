@@ -17,7 +17,7 @@ const Productpage = () => {
         <h1 className='text-sm xs:text-xl md:text-3xl xl:text-4xl font-semibold mt-0 xl:mt-10 flex justify-center' style={{ fontFamily: 'Amarante'}}>OUR PRODUCTS</h1>
         
        
-        <div className='mt-10 xl:mt-20 w-full md:h-[600px] m-auto flex justify-between'>
+        <div className='mt-10 xl:mt-20 w-full xl:w-[90vw] md:[500px] xl:h-[600px] m-auto flex justify-between'>
           <Swiper
            slidesPerView={3}
            pagination={{clickable: true}}
@@ -25,7 +25,7 @@ const Productpage = () => {
            className='mySwiper'
           >
             {ProdcutLinks.map((data) => (
-              <SwiperSlide className='m-1 sm:m-2 md:m-2 xl:m-7' key={data.img}><ProductCard link={data.link} image={data.img} /></SwiperSlide>
+              <SwiperSlide className='m-1 sm:m-2 md:m-5 xl:m-8' key={data.img}><ProductCard link={data.link} image={data.img} /></SwiperSlide>
             ))} 
           </Swiper>  
         </div>      
