@@ -17,7 +17,7 @@ const Productpage = () => {
         <h1 className='text-sm xs:text-xl md:text-3xl xl:text-4xl font-semibold mt-0 xl:mt-10 flex justify-center' style={{ fontFamily: 'Amarante'}}>OUR PRODUCTS</h1>
         
        
-        <div className='mt-10 xl:mt-20 w-full md:h-[600px] m-auto border-2 border-white flex justify-between'>
+        <div className='mt-10 xl:mt-20 w-full md:h-[600px] m-auto flex justify-between'>
           <Swiper
            slidesPerView={3}
            pagination={{clickable: true}}
