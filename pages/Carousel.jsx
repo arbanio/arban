@@ -1,8 +1,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import { FaRegArrowAltCircleRight } from "react-icons/fa";
-import { FaRegArrowAltCircleLeft } from "react-icons/fa";
+
 
 const Carousel = ({ children: slides, autoSlide  = false, autoSlideInterval = 3000 }) => {
   const [curr, setCurr] = useState(0);

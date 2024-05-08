@@ -1,6 +1,14 @@
+"use client"
+
 import ProductCard from '@/components/ProductCard';
+import { ProdcutLinks } from '@/constants';
 import Image from 'next/image';
-import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import React, { useRef, useState } from 'react';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 const Productpage = () => {
   return (
@@ -8,11 +16,19 @@ const Productpage = () => {
       <div className='w-full flex flex-col justify-center'>
         <h1 className='text-sm xs:text-xl md:text-3xl xl:text-4xl font-semibold mt-0 xl:mt-10 flex justify-center' style={{ fontFamily: 'Amarante'}}>OUR PRODUCTS</h1>
         
-        <div className='mt-10 xl:mt-20 flex w-full justify-around'>
-           <ProductCard image={"/assets/product1.jpg"} link="https://emoment.in/product/arban-luxury-pack-of-four-prebooking" />
-           <ProductCard image={"/assets/product2.png"} link="https://emoment.in/product/arban-luxury-pack-of-5-prebooking-price-rs-500"/>
-           <ProductCard image={"/assets/product3.jpg"} link="https://emoment.in/product/arban-luxury-pack-of-10-prebooking-price-rs-250" />
-        </div>
+       
+        <div className='mt-10 xl:mt-20 w-full md:h-[600px] m-auto border-2 border-white flex justify-between'>
+          <Swiper
+           slidesPerView={3}
+           pagination={{clickable: true}}
+           modules={[Pagination]}
+           className='mySwiper'
+          >
+            {ProdcutLinks.map((data) => (
+              <SwiperSlide className='m-1 sm:m-2 md:m-2 xl:m-7' key={data.img}><ProductCard link={data.link} image={data.img} /></SwiperSlide>
+            ))} 
+          </Swiper>  
+        </div>      
 
         {/* ======== product details page ============ */}
         <div className='mt-5 xs:mt-10 md:mt-40 h-556 flex'>

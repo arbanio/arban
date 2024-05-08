@@ -53,4 +53,26 @@ export const FooterLinksTwo = [
   {
     label: "Report Abuse"
   }
+];
+
+export const ProdcutLinks = [
+  {
+    img: "/assets/product1.png",
+    link: "https://emoment.in/product/arban-luxury-pack-of-four-prebooking"
+  },
+
+  {
+    img: "/assets/product2.png",
+    link: "https://emoment.in/product/arban-luxury-pack-of-four-prebooking"
+  },
+
+  {
+    img: "/assets/product3.png",
+    link: "https://emoment.in/product/arban-luxury-pack-of-four-prebooking"
+  },
+
+  {
+    img: "/assets/product4.png",
+    link: "https://emoment.in/product/arban-luxury-pack-of-four-prebooking"
+  }
 ]
