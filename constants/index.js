@@ -73,11 +73,11 @@ export const ProdcutLinks = [
 
   {
     img: "/assets/product5.png",
-    link: "https://emoment.in/product/arban-luxury-pack-of-10-prebooking-price-rs-250"
+    link: "https://emoment.in/product/arban-luxury-perfumes-pack-of-10-prebooking-price-rs-250"
   },
 
   {
     img: "/assets/product4.png",
     link: "https://emoment.in/product/arban-luxury-pack-of-10-prebooking-price-rs-250"
   }
-]
+];

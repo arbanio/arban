@@ -14,7 +14,7 @@ const Aboutpage = () => {
   ]
 
   return (
-    <main className="h-full xl:h-screen w-full bg-black-2">
+    <main className="h-full xl:h-screen w-full bg-black-2 ">
       <div className="w-full h-[50px] md:h-[100px] flex justify-center items-center aboutBanner">
         <h1
           className="text-xl sm:text-5xl text-black-2"
@@ -24,7 +24,7 @@ const Aboutpage = () => {
         </h1>
       </div>
 
-      <div className="mt-10 xl:mt-20 flex">
+      <div className="mt-10 xl:mt-20 flex justify-between">
         <div className="w-2/5 md:w-3/5 xl:w-1/2 h-full flex flex-col gap-1 md:gap-7 md:items-end ml-2 md:ml-0">
           <p className="w-[11rem] sm:w-[20rem] md:w-[32rem] text-[11px] xs:text-xs md:text-base xl:text-xl" style={{ fontFamily: "Amarante" }}>
             Welcome to ARBAN, where fragrance meets elegance and sophistication.
@@ -57,10 +57,11 @@ const Aboutpage = () => {
             discover the essence of luxury with ARBAN.
           </p>
         </div>
-        <div className="w-1/2 flex sm:items-center justify-end md:justify-center">
+        <div className="w-1/2 flex sm:items-center md:justify-center">
           <img
             src={"/assets/seahorse.svg"}
-            className="cursor-pointer  w-[350px] h-[400px] sm:h-[350px] md:w-[450px] md:h-[750px]"
+            alt="sea-horse"
+            className="cursor-pointer w-[350px] h-[400px] sm:h-[350px] md:w-[450px] md:h-[750px]"
           />
         </div>
       </div>
