@@ -1,6 +1,6 @@
 import StoryPage from "@/pages/StoryPage";
 import Productpage from "../products/page";
-import Reviews from "@/pages/Reviews";
+// import Reviews from "@/pages/Reviews";
 import NewsLetter from "@/components/NewsLetter";
 import Footer from "@/components/Footer";
 
@@ -42,7 +42,7 @@ const Homepage = () => {
       </div>
       <StoryPage />
       <Productpage />
-      <Reviews />
+      {/* <Reviews /> */}
       <NewsLetter />
       <Footer />
     </main>
