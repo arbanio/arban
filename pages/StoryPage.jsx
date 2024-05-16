@@ -1,7 +1,7 @@
 
 const StoryPage = () => {
   return (
-    <main className="w-full bg-transparent h-[400px] md:h-[700px] relative z-40">
+    <main className="w-full bg-transparent h-[360px] sm:h-[400px] md:h-[700px] relative z-40">
         <div className="flex h-full">
             <div className="w-1/2 flex flex-col md:justify-center">
                 <div className="w-1/2 m-5 md:m-10 md:ml-40">

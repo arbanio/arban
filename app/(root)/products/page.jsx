@@ -31,7 +31,7 @@ const Productpage = () => {
         </div>      
 
         {/* ======== product details page ============ */}
-        <div className='mt-5 xs:mt-5 md:mt-40 h-full sm:h-556 flex'>
+        <div className='mt-14 xs:mt-5 md:mt-40 h-full sm:h-556 flex'>
           <div className='w-1/2 flex justify-end'> <Image src={"/assets/product.svg"} width={600} height={600} alt='product' /></div>
           <div className='w-1/2 flex flex-col justify-center gap-5 xl:gap-10 xs:ml-10'>
               <h1 className="text-xl md:text-3xl xl:text-5xl font-semibold" style={{ fontFamily: 'Amarante'}}>LIMITED EDITION</h1>
