@@ -22,7 +22,6 @@ const Productpage = () => {
            slidesPerView={3}
            pagination={{clickable: true}}
            modules={[Pagination]}
-           className='mySwiper'
           >
             {ProdcutLinks.map((data) => (
               <SwiperSlide className='m-1 sm:m-2 md:m-5 xl:m-7' key={data.img}><ProductCard link={data.link} image={data.img} /></SwiperSlide>

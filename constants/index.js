@@ -81,3 +81,22 @@ export const ProdcutLinks = [
     link: "https://emoment.in/product/arban-luxury-pack-of-10-prebooking-price-rs-250"
   }
 ];
+
+export const slides = [
+  {
+    id: 1,
+    imgUrl: "/assets/perfume1.jpeg"
+  },
+  {
+    id: 2, 
+    imgUrl: "/assets/perfume2.jpeg",
+  },
+  {
+    id: 3,
+    imgUrl: "/assets/perfume3.jpeg",
+  },
+  {
+    id: 4,
+    imgUrl: "/assets/perfume4.jpeg",
+  }
+]
