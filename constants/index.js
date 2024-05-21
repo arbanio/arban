@@ -47,7 +47,7 @@ export const FooterLinksTwo = [
   },
   {
     label: "Privacy Policy",
-    route: "privacy-policy"
+    route: "/privacy-policy"
   },
   {
     label: "Terms & Conditions",
