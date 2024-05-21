@@ -6,7 +6,7 @@ export const NavbarLinks = [
     
       {
         label: "Products",
-        route: "#product"
+        route: "/home#product"
       },
     
       {
