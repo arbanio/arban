@@ -42,16 +42,20 @@ export const FooterLinksOne = [
 
 export const FooterLinksTwo = [
   {
-    label: "Legal Information"
+    label: "Legal Information",
+    route: "/legal-information"
   },
   {
-    label: "Privacy Policy"
+    label: "Privacy Policy",
+    route: "privacy-policy"
   },
   {
-    label: "Terms & Conditions"
+    label: "Terms & Conditions",
+    route: "/terms-and-conditions"
   },
   {
-    label: "Report Abuse"
+    label: "Report Abuse",
+    route: "/report-abuse"
   }
 ];
 

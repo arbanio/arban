@@ -43,7 +43,7 @@ const Footer = () => {
                 className="text-xs md:text-sm xl:text-xl"
                 style={{ fontFamily: "Open Sans" }}
                 key={data.label}
-                href={"#"}
+                href={data.route}
               >
                 {data.label}
               </Link>
