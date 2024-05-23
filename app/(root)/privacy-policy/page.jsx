@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Link from 'next/link';
 import React from 'react';
 
@@ -39,6 +40,10 @@ const page = () => {
             
             <h6 className='font-bold text-2xl mt-10'>Contact Us </h6> 
             <p className='font-semibold text-lg mt-4'>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at <Link href={"Mailto:support@emoment.in"} className='underline text-blue-600'>support@emoment.in</Link></p>
+        </div>
+
+        <div className=''>
+          <Footer />
         </div>
     </main>
   )

@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Link from 'next/link';
 import React from 'react';
 
@@ -65,6 +66,10 @@ const TermsAndConditionspage = () => {
             <h6 className='font-bold text-2xl mt-10'>Entire Agreement</h6> 
             <p className='font-semibold text-lg mt-4'>These Terms constitute the entire agreement between you and Emoment India Pvt. Ltd. regarding the use of our website and services and supersede any prior agreements between you and us relating to such subject matter.</p>
             <p className='font-semibold text-lg mt-4'>By using our website, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</p>
+        </div>
+
+        <div className='mt-20'>
+          <Footer />
         </div>
     </main>
   )

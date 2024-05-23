@@ -27,16 +27,20 @@ export const NavbarLinks = [
 
 export const FooterLinksOne = [
   {
-    label: "About Us"
+    label: "About Us",
+    route: "/about-us"
   },
   {
-    label: "Our Services"
+    label: "Our Services",
+    route: "/our-services"
   },
   {
-    label: "Careers"
+    label: "Careers",
+    route: "/careers"
   },
   {
-    label: "Read Our Blog"
+    label: "Read Our Blog",
+    route: "/blogs"
   }
 ];
 
