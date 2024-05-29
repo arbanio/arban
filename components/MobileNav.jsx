@@ -18,6 +18,7 @@ const MobileNav = () => {
               width={36}
               height={36}
               className="cursor-pointer"
+              priority
             />
           </SheetTrigger>
           <SheetContent side={"left"} className="bg-black-2 border-none">

@@ -1,7 +1,6 @@
 import { FooterLinksOne, FooterLinksTwo } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";

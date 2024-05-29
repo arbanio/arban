@@ -6,7 +6,7 @@ export const NavbarLinks = [
     
       {
         label: "Products",
-        route: "/home#product"
+        route: "/all-products"
       },
     
       {
@@ -28,7 +28,7 @@ export const NavbarLinks = [
 export const FooterLinksOne = [
   {
     label: "About Us",
-    route: "/about-us"
+    route: "/about"
   },
   {
     label: "Our Services",
@@ -40,7 +40,7 @@ export const FooterLinksOne = [
   },
   {
     label: "Read Our Blog",
-    route: "/blogs"
+    route: "https://emoment.in/blog"
   }
 ];
 
